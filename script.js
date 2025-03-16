@@ -36,7 +36,7 @@ searchBtn.addEventListener('click', () => {
     const query = searchInput.value;
     if (query) {
         // Redirect to Google Search with the query
-        window.location.href = `https://www.google.com/search?q=${encodeURIComponent(query)}`;
+        window.location.href = `https://search.brave.com/search?q=${encodeURIComponent(query)}`;
     } else {
         alert('Please enter a search query');
     }
